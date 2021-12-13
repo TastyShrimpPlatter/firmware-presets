@@ -113,7 +113,8 @@
       "VTX"
     ],
     "author": [
-      "Betaflight"
+      "Betaflight",
+      "TastyShrimp"
     ],
     "keywords": [
       "OSD",
@@ -209,6 +210,30 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/TastyShrimp.txt",
+      "hash": "64fbf85d0218b1701ade5854205f588a53792e0969e0ea1d16e52001d7fd2348",
+      "options": [],
+      "title": "Default 4.3 Modes and Adjustment settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets modes and adjustment ranges to 4.3 defaults"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "678b47f6387b4728d81df47685778882f34bf1afa1b321ce7193e34d351d6927",
       "options": [],
@@ -224,6 +249,26 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "description": [
+        "Resets the OSD values back to Betaflight 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/TastyShrimp.txt",
+      "hash": "b273632e349aa1b72a9408a5e5acf7522ebf357b9f6671a501358a4f15e6d407",
+      "options": [],
+      "title": "TastyShrimp 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "TastyShrimp",
       "description": [
         "Resets the OSD values back to Betaflight 4.3 defaults"
       ]
@@ -246,6 +291,29 @@
       "author": "Betaflight",
       "description": [
         "Default Betaflight rates - ACTUAL",
+        "Will be applied for the currently selected rate profile",
+        "TPA values are not included",
+        "Throttle limit and curve are not included"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rates/TastyShrimp.txt",
+      "hash": "bd2a1f698ca46875bec8c70f2061d28a5ddfd0e2e704856f186dfdae15b70e19",
+      "options": [],
+      "title": "Default rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rates",
+        "actual"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "TastyShrimp Betaflight rates - ACTUAL",
         "Will be applied for the currently selected rate profile",
         "TPA values are not included",
         "Throttle limit and curve are not included"
